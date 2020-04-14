@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-13T01:01:00-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jing’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/04/13/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-04-13T00:03:49-04:00</published><updated>2020-04-13T00:03:49-04:00</updated><id>http://localhost:4000/jekyll/update/2020/04/13/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/04/13/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-13T22:31:28-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jing’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Householder transformation</title><link href="http://localhost:4000/jekyll/update/2020/04/13/Householder-transformation.html" rel="alternate" type="text/html" title="Householder transformation" /><published>2020-04-13T00:03:49-04:00</published><updated>2020-04-13T00:03:49-04:00</updated><id>http://localhost:4000/jekyll/update/2020/04/13/Householder-transformation</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/04/13/Householder-transformation.html">&lt;p&gt;In linear algebra, a &lt;strong&gt;Householder transformation&lt;/strong&gt; (also known as a &lt;strong&gt;Householder reflection&lt;/strong&gt; or &lt;strong&gt;elementary reflector&lt;/strong&gt;) is a linear transformation that describes a reflection about a plane hyperplane containing the origin.&lt;/p&gt;
+
+&lt;h3 id=&quot;transformation&quot;&gt;Transformation&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/7c9b82d5b50b6672807fd3ffb1bcf5cc4cb0c0af&quot; alt=&quot;{\displaystyle x-2\langle x,v\rangle v=x-2v\left(v^{\textsf {H}}x\right),}&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;householder-matrix&quot;&gt;Householder matrix&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/ff7ffb120f02e2f2b5387815ebcf9d1f1ab5fc63&quot; alt=&quot;{\displaystyle P=I-2(v\otimes v)=I-2vv^{\textsf {H}}}&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Check out the wiki page &lt;a href=&quot;[https://en.wikipedia.org/wiki/Householder_transformation](https://en.wikipedia.org/wiki/Householder_transformation)&quot;&gt;Householder_transformation&lt;/a&gt; for more info.&lt;/p&gt;</content><author><name></name></author><summary type="html">In linear algebra, a Householder transformation (also known as a Householder reflection or elementary reflector) is a linear transformation that describes a reflection about a plane hyperplane containing the origin. Transformation</summary></entry><entry><title type="html">pointCloud in Matlab</title><link href="http://localhost:4000/jekyll/update/2020/04/13/pointCloud-object-in-Matlab.html" rel="alternate" type="text/html" title="pointCloud in Matlab" /><published>2020-04-13T00:03:49-04:00</published><updated>2020-04-13T00:03:49-04:00</updated><id>http://localhost:4000/jekyll/update/2020/04/13/pointCloud-object-in-Matlab</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/04/13/pointCloud-object-in-Matlab.html">&lt;h3 id=&quot;pointcloud&quot;&gt;pointCloud&lt;/h3&gt;
+&lt;p&gt;Matlab provides an object for storing 3D point cloud.&lt;/p&gt;
+
+&lt;p&gt;here is an pointCloud example:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ds_pointcloud = 
+
+pointCloud with properties:
+
+   Location: [30×40×3 double]
+      Color: [30×40×3 uint8]
+     Normal: []
+  Intensity: []
+      Count: 1200
+    XLimits: [-0.7151 0.9876]
+    YLimits: [-0.4939 0.5317]
+    ZLimits: [0.6847 1.8204]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/pointcloud/ds_pointcloud.png&quot; alt=&quot;example&quot; title=&quot;example&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://www.mathworks.com/help/vision/ref/pointcloud.html&quot;&gt;matlab-pointCloud-page&lt;/a&gt; for more info on this.&lt;/p&gt;</content><author><name></name></author><summary type="html">pointCloud Matlab provides an object for storing 3D point cloud.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/04/13/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-04-13T00:03:49-04:00</published><updated>2020-04-13T00:03:49-04:00</updated><id>http://localhost:4000/jekyll/update/2020/04/13/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/04/13/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
