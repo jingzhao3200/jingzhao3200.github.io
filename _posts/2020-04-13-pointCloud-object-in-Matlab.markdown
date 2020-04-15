@@ -36,3 +36,10 @@ Check out the [matlab-pointCloud-page][matlab-pointCloud-page] for more info on 
 [pointcloud]: /img/pointcloud/ds_pointcloud.png "example"
 
 
+## Issue:
+'Color' must correspond to the number of input points when using pointCloud in MATLAB
+
+### Solution: 
+make sure `rgb` and 'points3D' have same shape
+
+`ptCloud = pointCloud(points3D, 'Color', rgb);`
